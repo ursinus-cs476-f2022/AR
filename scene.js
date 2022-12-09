@@ -12,6 +12,6 @@ class MyScene {
 
     }
     step(dt) {
-      this.object.rotation.z += dt/10;
+      this.object.rotation.z += dt/2000;
     }
   }
